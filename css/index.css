@@ -1,3 +1,180 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
 
 
+	.nav-bar nav .logo img{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+		margin-top: 35px;
+    }
+    @media (min-width: 500px) {
+      .nav-bar nav .logo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+      }
+    }
+		.nav-bar nav a {
+    margin-right: 65px;
+			font-size: 16px;
+			color: rgb(66, 63, 63);
+		}
+	  
+.nav a {
+  margin: auto;
+}
+.nav-bar a {
+  color: Hex;
+  text-decoration: none;
+  border-top: 1px solid hex;
+  border-bottom: 1px solid hex;
+  padding: 1px;
+}
+.nav-bar nav .logo {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-evenly;
+  justify-items: center;
+}
+@media (min-width: 500px) {
+  .nav-bar nav .logo {
+    padding: 10px;
+    margin-bottom: 50px;
+  }
+}
+
+header {
+  text-align: center;
+  padding-bottom: 3rem;
+  margin: 0 1rem;
+  border-bottom: 2px solid black
+}
+header h1 {
+  font-size: 3rem;
+  line-height: 1;
+  margin-bottom: 1rem;
+}
+header button {
+  border: 1px solid black;
+  color: black;
+  padding: .1rem 2.5rem;
+}
+@media (min-width: 500px) {
+  header button {
+    margin-bottom: 15px;
+  }
+}
+hero-img {
+  display: none;
+}
+section {
+  margin: 0 1rem;
+}
+#nav-bar {
+  margin: 0;
+}
+section div {
+  margin: 2rem 0;
+}
+section h2 {
+  font-size: 1.25rem;
+  margin: 0 0 .5rem;
+}
+section p {
+  font-size: .9rem;
+  margin: 0;
+}
+#secondary-details {
+  border-bottom: 2px solid black;
+}
+.middle-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+@media (min-width: 500px) {
+  .middle-img {
+      width: 100%;
+      height: auto;
+    }
+  }
+address {
+  font-style: normal;
+}
+address p {
+  margin: 0 0 10px;
+}
+footer {
+  text-align: center;
+  font-size: 12px;
+}
+@media (min-width: 500px) {
+  footer {
+  Display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+}
+@media (min-width: 500px) {
+  .nav {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+  .nav a {
+    border: 0;
+  }
+  header h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+  }
+  header button {
+    font-size: 16px;
+  }
+  #primary-details, #secondary-details {
+    display: flex;
+    justify-content: space-around;
+  }
+  #primary-details div {
+    width: 48%;
+  }
+  #secondary-details div {
+    width: 30%;
+  }
+@media (min-width: 800px) {
+  .nav-bar {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 50px;
+  }
+  .logo {
+    margin: 0 0 0 10px;
+  }
+  .nav a {
+    margin: 0 25px;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+  header div {
+    width: 50%
+  }
+  #hero-img {
+    display: block;
+    width: 350px;
+    height: auto;
+    display: flex;
+  }
+  middle-img {
+    width: 1000px;
+    height: auto: 0;
+    display: flex;
+  }
